@@ -4,9 +4,9 @@
 
 **Licensor:** Marco Pratticò
 
-This End User License Agreement ("Agreement") governs your use of an official compiled version of SideSearch for Android (the "Application") obtained directly from the Licensor or through an authorized distribution channel.
+This End User License Agreement ("Agreement") governs your use of an official compiled version of SideSearch for Android (the "Application") obtained directly from the Licensor or through the official SideSearch GitHub repository.
 
-By purchasing, downloading, installing, or using the Application, you agree to this Agreement. If you do not agree, do not install or use the Application and contact the seller or storefront, subject to its terms and applicable law.
+By downloading, installing, or using the Application, you agree to this Agreement. If you do not agree, do not install or use the Application.
 
 ## 1. Personal-use license
 
@@ -16,7 +16,7 @@ If you lawfully acquire the Application, the Licensor grants you a limited, non-
 - install it on Android devices that you personally own or control; and
 - retain one backup copy solely to restore your lawful installation.
 
-This is a license, not a sale or transfer of ownership. The license applies only to official compiled releases supplied by the Licensor or an authorized storefront. It grants no right to access or use the source code.
+This is a license, not a sale or transfer of ownership. The license applies only to official compiled releases supplied by the Licensor or an authorized distribution channel. It grants no right to access or use the source code.
 
 ## 2. Restrictions
 
@@ -55,9 +55,9 @@ The current Application does not contain SideSearch analytics, user accounts, or
 
 Android permissions remain under your control and can be revoked through device settings.
 
-## 6. Updates and support
+## 6. Distribution, updates, and support
 
-The purchase includes the version supplied at the time of purchase. No feature upgrade, new version, compatibility extension, or ongoing support is promised unless the product description or applicable law states otherwise.
+Official releases are supplied free of charge. No feature upgrade, new version, compatibility extension, or ongoing support is promised unless the release description or applicable law states otherwise.
 
 The Licensor may provide updates at their discretion and will provide information or updates required by mandatory applicable law. Updates remain subject to this Agreement unless supplied with different terms.
 
@@ -91,4 +91,4 @@ If any provision is held unenforceable, it will be enforced to the maximum lawfu
 
 ## 12. Contact
 
-Questions, support requests, and requests for additional permission may be sent to Marco Pratticò through the storefront where the Application was purchased.
+Questions, support requests, and requests for additional permission may be submitted through the official SideSearch GitHub repository.

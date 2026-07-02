@@ -3,7 +3,7 @@
 **Universal Android search for apps, commands, notifications, weather, and media controls.**
 
 [![Android 8.0+](https://img.shields.io/badge/Android-8.0%2B-3DDC84?logo=android&logoColor=white)](https://www.android.com/)
-[![Version 0.1.0](https://img.shields.io/badge/version-0.1.0-555555)](#current-status)
+[![Version 0.1.1](https://img.shields.io/badge/version-0.1.1-555555)](#current-status)
 [![Proprietary](https://img.shields.io/badge/license-proprietary-yellow)](EULA.md)
 
 SideSearch is a native Android app that lets you search and launch apps, run quick commands, check notifications, control media playback, and access useful information without returning to the Home screen.
@@ -12,9 +12,13 @@ Set it as your default Android assistant and open it from the system gesture or 
 
 ## Get SideSearch
 
-The SideSearch APK is not currently available for public download. Official release information will be published in this repository when it is ready.
+SideSearch is distributed free of charge. Download the official signed APK from GitHub Releases:
 
-> This is the official public information repository. It intentionally contains no application source code or APK binaries. SideSearch is proprietary software and is not open source.
+### [Download SideSearch](https://github.com/noisystyle/SideSearch/releases/latest)
+
+No payment is required to download or use the app. The release includes the signed Android APK and its SHA-256 checksum.
+
+> This is the official public information and release repository. It intentionally contains no application source code. SideSearch is proprietary software and is not open source.
 
 ## Preview
 
@@ -36,6 +40,8 @@ The SideSearch APK is not currently available for public download. Official rele
 - Automatic recognition of email addresses, URLs, phone numbers, and calculations.
 - Light, dark, and system themes with customizable icon shapes and monochrome mode.
 - Adaptive layouts for phones, landscape displays, tablets, and foldables.
+
+Weather data by [Open-Meteo.com](https://open-meteo.com/).
 
 ## Example commands
 
@@ -61,12 +67,12 @@ The SideSearch APK is not currently available for public download. Official rele
 
 ## Current status
 
-The current release is **SideSearch 0.1.0**, a work-in-progress prototype. Feature availability can vary by Android version, device manufacturer, installed applications, and the capabilities exposed by notifications and media sessions.
+The current release is **SideSearch 0.1.1**, a work-in-progress prototype. Feature availability can vary by Android version, device manufacturer, installed applications, and the capabilities exposed by notifications and media sessions.
 
 Signed APK SHA-256:
 
 ```text
-7c0b3bddc7cf7d2126241ceb4c3c758ca1d6fc29a003f7f68773f4ef8d975699
+ff8275b55eba4a9a12fe5a0982863556ebf7dfeade3ea639831afea706b306bc
 ```
 
 ## Privacy and legal
