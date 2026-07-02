@@ -23,7 +23,7 @@ The download includes the signed Android APK, installation instructions, and the
 ## Preview
 
 <p align="center">
-  <img src="assets/sidesearch-settings.png" alt="SideSearch settings and support button" width="360">
+  <img src="assets/sidesearch-search.png" alt="SideSearch universal app and command search" width="360">
 </p>
 
 ## Features
