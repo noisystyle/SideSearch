@@ -79,6 +79,10 @@ Lawfully obtaining SideSearch grants a limited personal-use license. It does not
 
 ## Support
 
+Supporting SideSearch is entirely optional and does not unlock features or affect access to the app.
+
+### [Support SideSearch on Buy Me a Coffee](https://buymeacoffee.com/marcoprattv)
+
 For questions or permission requests, use the repository's [issue tracker](https://github.com/noisystyle/SideSearch/issues).
 
 Copyright (c) 2026 Marco Pratticò. All rights reserved.
