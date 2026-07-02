@@ -4,7 +4,7 @@
 
 **Licensor:** Marco Pratticò
 
-This End User License Agreement ("Agreement") governs your use of an official compiled version of SideSearch for Android (the "Application") obtained directly from the Licensor or through an authorized storefront, including the Licensor's Buy Me a Coffee shop.
+This End User License Agreement ("Agreement") governs your use of an official compiled version of SideSearch for Android (the "Application") obtained directly from the Licensor or through an authorized distribution channel.
 
 By purchasing, downloading, installing, or using the Application, you agree to this Agreement. If you do not agree, do not install or use the Application and contact the seller or storefront, subject to its terms and applicable law.
 

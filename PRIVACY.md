@@ -6,7 +6,7 @@ This Privacy Policy explains how SideSearch handles information when you install
 
 ## 1. Developer
 
-SideSearch is developed and distributed by Marco Pratticò. Privacy questions may be sent through the [Buy Me a Coffee profile](https://buymeacoffee.com/marcoprattv).
+SideSearch is developed and distributed by Marco Pratticò. Privacy questions may be submitted through the official [SideSearch repository](https://github.com/noisystyle/SideSearch/issues).
 
 ## 2. Information SideSearch does not collect
 
@@ -54,9 +54,9 @@ When you choose a command for another app or online service, Android may transfe
 
 SideSearch does not transfer command content to those services until you select the corresponding action.
 
-## 6. Purchases
+## 6. Distribution and optional support
 
-Purchases and downloads are handled by Buy Me a Coffee and its payment providers, not by the SideSearch application. Purchase-related information is governed by the [Buy Me a Coffee Privacy Policy](https://buymeacoffee.com/privacy-policy).
+SideSearch does not process payment information. If the Application opens an external service for optional support, any information provided to that service is governed by its own privacy policy and terms.
 
 ## 7. Data retention
 
@@ -76,4 +76,4 @@ This policy may be updated when SideSearch features or data practices change. Th
 
 ## 11. Contact
 
-For privacy questions, contact Marco Pratticò through [Buy Me a Coffee](https://buymeacoffee.com/marcoprattv).
+For privacy questions, contact Marco Pratticò through the official [SideSearch repository](https://github.com/noisystyle/SideSearch/issues).
