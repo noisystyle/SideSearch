@@ -12,11 +12,7 @@ Set it as your default Android assistant and open it from the system gesture or 
 
 ## Get SideSearch
 
-SideSearch is available directly from Marco Pratticò through Buy Me a Coffee:
-
-### [Get SideSearch on Buy Me a Coffee](https://buymeacoffee.com/marcoprattv)
-
-The download includes the signed Android APK, installation instructions, and the End User License Agreement.
+The SideSearch APK is not currently available for public download. Official release information will be published in this repository when it is ready.
 
 > This is the official public information repository. It intentionally contains no application source code or APK binaries. SideSearch is proprietary software and is not open source.
 
@@ -79,10 +75,10 @@ Signed APK SHA-256:
 - Read the [End User License Agreement](EULA.md).
 - Read the [repository notice](NOTICE.md).
 
-Purchasing SideSearch grants a limited personal-use license. It does not grant access to the source code or permission to redistribute, resell, modify, or republish the APK.
+Lawfully obtaining SideSearch grants a limited personal-use license. It does not grant access to the source code or permission to redistribute, resell, modify, or republish the APK.
 
 ## Support
 
-For purchase support, questions, or permission requests, contact Marco Pratticò through [Buy Me a Coffee](https://buymeacoffee.com/marcoprattv).
+For questions or permission requests, use the repository's [issue tracker](https://github.com/noisystyle/SideSearch/issues).
 
 Copyright (c) 2026 Marco Pratticò. All rights reserved.
