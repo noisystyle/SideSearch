@@ -56,7 +56,7 @@ SideSearch does not transfer command content to those services until you select 
 
 ## 6. Distribution and optional support
 
-SideSearch does not process payment information. If the Application opens an external service for optional support, any information provided to that service is governed by its own privacy policy and terms.
+The official APK is distributed free of charge through GitHub Releases. SideSearch may include a link to an external service where users can optionally support the developer. Support is not required to download, install, or use the Application. SideSearch does not receive or process payment information.
 
 ## 7. Data retention
 
