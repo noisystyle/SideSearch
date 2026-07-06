@@ -1,6 +1,6 @@
 # SideSearch Privacy Policy
 
-**Effective date:** July 2, 2026
+**Effective date:** July 6, 2026
 
 This Privacy Policy explains how SideSearch handles information when you install and use the Android application.
 
@@ -39,6 +39,14 @@ If you grant Contacts permission and use a contact command, SideSearch searches 
 ### Notification access
 
 If you grant notification access, SideSearch reads active notifications and media-session information locally so it can display notifications, expose supported actions, and provide media controls. This information is not sent to the developer.
+
+### System controls and edge handles
+
+If enabled, SideSearch uses Android system-settings access to adjust brightness and auto-rotation. Display-over-other-apps access is used only to show the optional left and right edge handles. A foreground-service notification and optional battery-optimization exemption keep those handles available in the background. These capabilities do not send device information to the developer.
+
+### Home widget
+
+The optional Home widget reads the locally stored recent-app package names described above so it can show the same recent apps as SideSearch. Widget data remains on the device.
 
 You can revoke these permissions at any time through Android settings.
 

@@ -3,7 +3,7 @@
 **Universal Android search for apps, commands, notifications, weather, and media controls.**
 
 [![Android 8.0+](https://img.shields.io/badge/Android-8.0%2B-3DDC84?logo=android&logoColor=white)](https://www.android.com/)
-[![Version 0.1.1](https://img.shields.io/badge/version-0.1.1-555555)](#current-status)
+[![Version 0.2.0](https://img.shields.io/badge/version-0.2.0-555555)](#current-status)
 [![Proprietary](https://img.shields.io/badge/license-proprietary-yellow)](EULA.md)
 
 SideSearch is a native Android app that lets you search and launch apps, run quick commands, check notifications, control media playback, and access useful information without returning to the Home screen.
@@ -31,6 +31,9 @@ No payment is required to download or use the app. The release includes the sign
 - Fast app search with exact, prefix, acronym, fuzzy, and typo-tolerant matching.
 - Recent apps and contextual Android app shortcuts.
 - Android assistant integration for access from the system gesture or button.
+- Optional persistent edge handles for opening search or notifications over other apps.
+- Horizontally scrollable quick controls for connectivity, rotation, brightness, volume, ringer mode, wallet, and system settings.
+- Adaptive Home widget with search and synchronized recent apps.
 - Interactive notifications grouped under their source apps.
 - Rich media cards with artwork and available previous, play/pause, next, like, and close controls.
 - Weather cards with current conditions, hourly data, and a five-day forecast.
@@ -63,17 +66,15 @@ Weather data by [Open-Meteo.com](https://open-meteo.com/).
 - Sideloading permission for the browser or file manager used to open the APK.
 - Optional notification access for notification and media features.
 - Optional Contacts permission for contact commands.
+- Optional system-settings access for brightness and auto-rotation controls.
+- Optional display-over-other-apps, notification, and background-operation access for persistent edge handles.
 - A device that allows SideSearch to be selected as the default digital assistant.
 
 ## Current status
 
-The current release is **SideSearch 0.1.1**, a work-in-progress prototype. Feature availability can vary by Android version, device manufacturer, installed applications, and the capabilities exposed by notifications and media sessions.
+The current release is **SideSearch 0.2.0**, a work-in-progress prototype. Feature availability can vary by Android version, device manufacturer, installed applications, and the capabilities exposed by notifications and media sessions.
 
-Signed APK SHA-256:
-
-```text
-ff8275b55eba4a9a12fe5a0982863556ebf7dfeade3ea639831afea706b306bc
-```
+The release includes `SideSearch-0.2.0-SHA256SUMS.txt` so the signed APK can be verified after download.
 
 ## Privacy and legal
 

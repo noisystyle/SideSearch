@@ -50,6 +50,8 @@ The current Application does not contain SideSearch analytics, user accounts, or
 
 - Contacts are read locally only when you use a contact command and grant permission.
 - Notifications and media sessions are processed locally only when you grant notification access.
+- System-settings and display-over-other-apps access are used locally only for enabled quick controls and edge handles.
+- The optional Home widget displays recent-app information stored locally by SideSearch.
 - Weather requests send the location query to Open-Meteo.
 - Commands intended for another application or online service are transferred only after your action.
 
