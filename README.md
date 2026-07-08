@@ -3,7 +3,7 @@
 **Universal Android search for apps, commands, notifications, weather, and media controls.**
 
 [![Android 8.0+](https://img.shields.io/badge/Android-8.0%2B-3DDC84?logo=android&logoColor=white)](https://www.android.com/)
-[![Version 0.2.1](https://img.shields.io/badge/version-0.2.1-555555)](#current-status)
+[![Version 0.2.2](https://img.shields.io/badge/version-0.2.2-555555)](#current-status)
 [![Proprietary](https://img.shields.io/badge/license-proprietary-yellow)](EULA.md)
 
 SideSearch is a native Android app that lets you search and launch apps, run quick commands, check notifications, control media playback, and access useful information without returning to the Home screen.
@@ -75,9 +75,11 @@ Weather data by [Open-Meteo.com](https://open-meteo.com/).
 
 ## Current status
 
-The current release is **SideSearch 0.2.1**, a work-in-progress prototype. Feature availability can vary by Android version, device manufacturer, installed applications, and the capabilities exposed by notifications and media sessions.
+The current release is **SideSearch 0.2.2**, a work-in-progress prototype. Feature availability can vary by Android version, device manufacturer, installed applications, and the capabilities exposed by notifications and media sessions.
 
-The release includes `SideSearch-0.2.1-SHA256SUMS.txt` so the signed APK can be verified after download.
+This hotfix keeps assistant-triggered SideSearch overlays on top of the current app instead of returning to the system Settings task on affected Android builds.
+
+The release includes `SideSearch-0.2.2-SHA256SUMS.txt` so the signed APK can be verified after download.
 
 ## Privacy and legal
 
