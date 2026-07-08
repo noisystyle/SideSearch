@@ -3,7 +3,7 @@
 **Universal Android search for apps, commands, notifications, weather, and media controls.**
 
 [![Android 8.0+](https://img.shields.io/badge/Android-8.0%2B-3DDC84?logo=android&logoColor=white)](https://www.android.com/)
-[![Version 0.2.0](https://img.shields.io/badge/version-0.2.0-555555)](#current-status)
+[![Version 0.2.1](https://img.shields.io/badge/version-0.2.1-555555)](#current-status)
 [![Proprietary](https://img.shields.io/badge/license-proprietary-yellow)](EULA.md)
 
 SideSearch is a native Android app that lets you search and launch apps, run quick commands, check notifications, control media playback, and access useful information without returning to the Home screen.
@@ -28,11 +28,12 @@ No payment is required to download or use the app. The release includes the sign
 
 ## Features
 
-- Fast app search with exact, prefix, acronym, fuzzy, and typo-tolerant matching.
+- Fast app search with exact, prefix, acronym, fuzzy, typo-tolerant, and usage-aware matching.
 - Recent apps and contextual Android app shortcuts.
 - Android assistant integration for access from the system gesture or button.
 - Optional persistent edge handles for opening search or notifications over other apps.
-- Horizontally scrollable quick controls for connectivity, rotation, brightness, volume, ringer mode, wallet, and system settings.
+- Adaptive quick settings with connectivity, rotation, flashlight, brightness, auto-brightness, volume, ringer mode, wallet, and system settings controls.
+- Compact portrait quick settings with a promoted media player when enough vertical space is available.
 - Adaptive Home widget with search and synchronized recent apps.
 - Interactive notifications grouped under their source apps.
 - Rich media cards with artwork and available previous, play/pause, next, like, and close controls.
@@ -40,6 +41,7 @@ No payment is required to download or use the app. The release includes the sign
 - Contact commands for calls, SMS, email, WhatsApp, Telegram, and Signal.
 - Natural-language calendar event drafts in English and Italian.
 - Quick commands for Google, Maps, YouTube, ChatGPT, Gemini, and messaging apps.
+- User-defined commands for opening URL templates, launching apps, or sending text to target apps.
 - Automatic recognition of email addresses, URLs, phone numbers, and calculations.
 - Light, dark, and system themes with customizable icon shapes and monochrome mode.
 - Adaptive layouts for phones, landscape displays, tablets, and foldables.
@@ -66,15 +68,16 @@ Weather data by [Open-Meteo.com](https://open-meteo.com/).
 - Sideloading permission for the browser or file manager used to open the APK.
 - Optional notification access for notification and media features.
 - Optional Contacts permission for contact commands.
+- Optional Camera permission for the flashlight quick setting.
 - Optional system-settings access for brightness and auto-rotation controls.
 - Optional display-over-other-apps, notification, and background-operation access for persistent edge handles.
 - A device that allows SideSearch to be selected as the default digital assistant.
 
 ## Current status
 
-The current release is **SideSearch 0.2.0**, a work-in-progress prototype. Feature availability can vary by Android version, device manufacturer, installed applications, and the capabilities exposed by notifications and media sessions.
+The current release is **SideSearch 0.2.1**, a work-in-progress prototype. Feature availability can vary by Android version, device manufacturer, installed applications, and the capabilities exposed by notifications and media sessions.
 
-The release includes `SideSearch-0.2.0-SHA256SUMS.txt` so the signed APK can be verified after download.
+The release includes `SideSearch-0.2.1-SHA256SUMS.txt` so the signed APK can be verified after download.
 
 ## Privacy and legal
 
