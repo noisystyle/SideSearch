@@ -3,7 +3,7 @@
 **Universal Android search for apps, commands, notifications, weather, and media controls.**
 
 [![Android 8.0+](https://img.shields.io/badge/Android-8.0%2B-3DDC84?logo=android&logoColor=white)](https://www.android.com/)
-[![Version 0.2.2](https://img.shields.io/badge/version-0.2.2-555555)](#current-status)
+[![Version 0.3.0](https://img.shields.io/badge/version-0.3.0-555555)](#current-status)
 [![Proprietary](https://img.shields.io/badge/license-proprietary-yellow)](EULA.md)
 
 SideSearch is a native Android app that lets you search and launch apps, run quick commands, check notifications, control media playback, and access useful information without returning to the Home screen.
@@ -34,9 +34,11 @@ No payment is required to download or use the app. The release includes the sign
 - Optional persistent edge handles for opening search or notifications over other apps.
 - Adaptive quick settings with connectivity, rotation, flashlight, brightness, auto-brightness, volume, ringer mode, wallet, and system settings controls.
 - Compact portrait quick settings with a promoted media player when enough vertical space is available.
+- Multi-session media pager with active playback selected first, page dots, snap feedback, and duplicate notification filtering.
+- Full-width media timeline with live playback progress, drag-to-seek, haptic feedback, a scrub tooltip, and animated start/end time labels.
 - Adaptive Home widget with search and synchronized recent apps.
 - Interactive notifications grouped under their source apps.
-- Rich media cards with artwork and available previous, play/pause, next, like, and close controls.
+- Rich media cards with artwork, available previous, play/pause, next, like, close controls, and seek support when exposed by Android.
 - Weather cards with current conditions, hourly data, and a five-day forecast.
 - Contact commands for calls, SMS, email, WhatsApp, Telegram, and Signal.
 - Natural-language calendar event drafts in English and Italian.
@@ -75,11 +77,11 @@ Weather data by [Open-Meteo.com](https://open-meteo.com/).
 
 ## Current status
 
-The current release is **SideSearch 0.2.2**, a work-in-progress prototype. Feature availability can vary by Android version, device manufacturer, installed applications, and the capabilities exposed by notifications and media sessions.
+The current release is **SideSearch 0.3.0**, a work-in-progress prototype. Feature availability can vary by Android version, device manufacturer, installed applications, and the capabilities exposed by notifications and media sessions.
 
-This hotfix keeps assistant-triggered SideSearch overlays on top of the current app instead of returning to the system Settings task on affected Android builds.
+This update focuses on the compact portrait experience and media controls. Media sessions can now move into the quick settings area when space allows, multiple media sessions are presented as a pager, the active session is selected first when SideSearch opens, and the media timeline can be dragged for seek with haptic feedback and live time feedback. The assistant/settings back stack handling has also been hardened so SideSearch keeps opening as an overlay instead of returning to the Settings task on affected Android builds.
 
-The release includes `SideSearch-0.2.2-SHA256SUMS.txt` so the signed APK can be verified after download.
+The release includes `SideSearch-0.3.0-SHA256SUMS.txt` so the signed APK can be verified after download.
 
 ## Privacy and legal
 
