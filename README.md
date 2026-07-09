@@ -3,7 +3,7 @@
 **Universal Android search for apps, commands, notifications, weather, and media controls.**
 
 [![Android 8.0+](https://img.shields.io/badge/Android-8.0%2B-3DDC84?logo=android&logoColor=white)](https://www.android.com/)
-[![Version 0.3.0](https://img.shields.io/badge/version-0.3.0-555555)](#current-status)
+[![Version 0.3.1](https://img.shields.io/badge/version-0.3.1-555555)](#current-status)
 [![Proprietary](https://img.shields.io/badge/license-proprietary-yellow)](EULA.md)
 
 SideSearch is a native Android app that lets you search and launch apps, run quick commands, check notifications, control media playback, and access useful information without returning to the Home screen.
@@ -30,6 +30,7 @@ No payment is required to download or use the app. The release includes the sign
 
 - Fast app search with exact, prefix, acronym, fuzzy, typo-tolerant, and usage-aware matching.
 - Recent apps and contextual Android app shortcuts.
+- Gesture contextual menus for apps and recent apps, with haptic drag selection and smooth slide-down dismissal.
 - Android assistant integration for access from the system gesture or button.
 - Optional persistent edge handles for opening search or notifications over other apps.
 - Adaptive quick settings with connectivity, rotation, flashlight, brightness, auto-brightness, volume, ringer mode, wallet, and system settings controls.
@@ -77,11 +78,11 @@ Weather data by [Open-Meteo.com](https://open-meteo.com/).
 
 ## Current status
 
-The current release is **SideSearch 0.3.0**, a work-in-progress prototype. Feature availability can vary by Android version, device manufacturer, installed applications, and the capabilities exposed by notifications and media sessions.
+The current release is **SideSearch 0.3.1**, a work-in-progress prototype. Feature availability can vary by Android version, device manufacturer, installed applications, and the capabilities exposed by notifications and media sessions.
 
-This update focuses on the compact portrait experience and media controls. Media sessions can now move into the quick settings area when space allows, multiple media sessions are presented as a pager, the active session is selected first when SideSearch opens, and the media timeline can be dragged for seek with haptic feedback and live time feedback. The assistant/settings back stack handling has also been hardened so SideSearch keeps opening as an overlay instead of returning to the Settings task on affected Android builds.
+This update focuses on contextual app actions and compact interaction polish. App rows and recent apps now share a press-drag-release contextual menu with decisive haptic feedback, tooltip labels, and a smoother slide-down dismissal. The uninstall action now opens Android's app info screen for a reliable system-managed uninstall path, which avoids device-specific failures when SideSearch is launched from the assistant overlay. Search ranking remains usage-aware so frequently launched apps can rise more reliably as first choices.
 
-The release includes `SideSearch-0.3.0-SHA256SUMS.txt` so the signed APK can be verified after download.
+The release includes `SideSearch-0.3.1-SHA256SUMS.txt` so the signed APK can be verified after download.
 
 ## Privacy and legal
 
