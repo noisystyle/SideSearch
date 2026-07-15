@@ -1,14 +1,14 @@
 # SideSearch
 
-**Universal Android search for apps, commands, notifications, weather, and media controls.**
+**A fast Android launcher and search panel for apps, commands, notifications, widgets, weather, and media.**
 
 [![Android 8.0+](https://img.shields.io/badge/Android-8.0%2B-3DDC84?logo=android&logoColor=white)](https://www.android.com/)
-[![Version 0.3.1](https://img.shields.io/badge/version-0.3.1-555555)](#current-status)
+[![Version 0.4.0](https://img.shields.io/badge/version-0.4.0-555555)](#current-status)
 [![Proprietary](https://img.shields.io/badge/license-proprietary-yellow)](EULA.md)
 
-SideSearch is a native Android app that lets you search and launch apps, run quick commands, check notifications, control media playback, and access useful information without returning to the Home screen.
+SideSearch is a native Android app that lets you search and launch apps, run quick commands, use Home-screen widgets, check and reply to compatible notifications, control media playback, and access useful information from one fluid panel.
 
-Set it as your default Android assistant and open it from the system gesture or shortcut supported by your device.
+Use it as your Home launcher, set it as the default Android assistant, add its search widget, or open it through the optional edge handles.
 
 ## Get SideSearch
 
@@ -29,7 +29,11 @@ No payment is required to download or use the app. The release includes the sign
 ## Features
 
 - Fast app search with exact, prefix, acronym, fuzzy, typo-tolerant, and usage-aware matching.
-- Recent apps and contextual Android app shortcuts.
+- Recent apps, contextual Android app shortcuts, native uninstall, and split-screen actions.
+- Optional Home launcher mode with the same search, quick controls, media, notifications, and widget panel.
+- Animated full-height search mode that gives results more room while typing and returns to the dashboard when the keyboard closes.
+- Search-bar shortcuts for Google Lens and Google song recognition, plus a compact modern settings menu.
+- Recently used commands suggested as soon as a matching command prefix is entered.
 - Gesture contextual menus for apps and recent apps, with haptic drag selection and smooth slide-down dismissal.
 - Android assistant integration for access from the system gesture or button.
 - Optional persistent edge handles for opening search or notifications over other apps.
@@ -37,9 +41,12 @@ No payment is required to download or use the app. The release includes the sign
 - Compact portrait quick settings with a promoted media player when enough vertical space is available.
 - Multi-session media pager with active playback selected first, page dots, snap feedback, and duplicate notification filtering.
 - Full-width media timeline with live playback progress, drag-to-seek, haptic feedback, a scrub tooltip, and animated start/end time labels.
-- Adaptive Home widget with search and synchronized recent apps.
-- Interactive notifications grouped under their source apps.
+- Adaptive recent-app widget and a compact monochrome search-bar widget with Lens and song-recognition shortcuts.
+- A paged widget panel that loads widgets only when needed and restores the page that was previously in use.
+- Interactive notifications grouped under their source apps, with clearer sender, conversation, message, time, and app hierarchy.
+- Direct reply inside compatible messaging notifications, including local sent-message confirmation; reply text is not saved by SideSearch.
 - Rich media cards with artwork, available previous, play/pause, next, like, close controls, and seek support when exposed by Android.
+- Focus boundaries that can hide selected apps from SideSearch, enforce schedules, daily/session/opening limits and cooldowns, pause their notifications, and require an intentional unlock step.
 - Weather cards with current conditions, hourly data, and a five-day forecast.
 - Contact commands for calls, SMS, email, WhatsApp, Telegram, and Signal.
 - Natural-language calendar event drafts in English and Italian.
@@ -48,6 +55,8 @@ No payment is required to download or use the app. The release includes the sign
 - Automatic recognition of email addresses, URLs, phone numbers, and calculations.
 - Light, dark, and system themes with customizable icon shapes and monochrome mode.
 - Adaptive layouts for phones, landscape displays, tablets, and foldables.
+- High-refresh-rate support where available, lazy app-icon loading, bounded caches, and reduced media-progress redraws.
+- Softer panel, widget, pager, app-entry, and dismissal animations with consistent physical haptic feedback.
 
 Weather data by [Open-Meteo.com](https://open-meteo.com/).
 
@@ -74,15 +83,19 @@ Weather data by [Open-Meteo.com](https://open-meteo.com/).
 - Optional Camera permission for the flashlight quick setting.
 - Optional system-settings access for brightness and auto-rotation controls.
 - Optional display-over-other-apps, notification, and background-operation access for persistent edge handles.
-- A device that allows SideSearch to be selected as the default digital assistant.
+- Optional Usage access for accurate Focus time limits.
+- Optional Accessibility service for enforcing Focus boundaries outside SideSearch. It observes only window/app changes and is configured not to retrieve window content.
+- A device that allows SideSearch to be selected as the Home launcher or default digital assistant for those opening modes.
 
 ## Current status
 
-The current release is **SideSearch 0.3.1**, a work-in-progress prototype. Feature availability can vary by Android version, device manufacturer, installed applications, and the capabilities exposed by notifications and media sessions.
+The current release is **SideSearch 0.4.0**, a work-in-progress preview. Feature availability can vary by Android version, device manufacturer, installed applications, and the capabilities exposed by notifications and media sessions.
 
-This update focuses on contextual app actions and compact interaction polish. App rows and recent apps now share a press-drag-release contextual menu with decisive haptic feedback, tooltip labels, and a smoother slide-down dismissal. The uninstall action now opens Android's app info screen for a reliable system-managed uninstall path, which avoids device-specific failures when SideSearch is launched from the assistant overlay. Search ranking remains usage-aware so frequently launched apps can rise more reliably as first choices.
+This is the largest SideSearch update so far. Version 0.4.0 adds a complete launcher mode, the compact Lens/song-search widget, the lazy paged widget panel, richer messaging notifications with direct reply, and configurable Focus boundaries. Search now expands smoothly while typing, restores the correct widget and notification pages, exposes recent command suggestions, and handles keyboard/back navigation more reliably across launcher, assistant, widget, and overlay entry points.
 
-The release includes `SideSearch-0.3.1-SHA256SUMS.txt` so the signed APK can be verified after download.
+The update also refines quick-toggle state synchronization, adaptive system bars, media layout, contextual menus, haptics, and animations throughout the app. App icons are loaded lazily with smaller pressure-aware caches, media progress redraws are throttled, and high-refresh-rate displays are used where supported.
+
+The release includes `SideSearch-0.4.0-SHA256SUMS.txt` so the signed APK can be verified after download.
 
 ## Privacy and legal
 
