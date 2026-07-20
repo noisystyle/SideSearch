@@ -3,7 +3,7 @@
 **A fast Android launcher and search panel for apps, commands, notifications, widgets, weather, and media.**
 
 [![Android 8.0+](https://img.shields.io/badge/Android-8.0%2B-3DDC84?logo=android&logoColor=white)](https://www.android.com/)
-[![Version 0.5.0](https://img.shields.io/badge/version-0.5.0-555555)](#current-status)
+[![Version 0.5.1](https://img.shields.io/badge/version-0.5.1-555555)](#current-status)
 [![Proprietary](https://img.shields.io/badge/license-proprietary-yellow)](EULA.md)
 
 SideSearch is a native Android app that lets you search and launch apps, run quick commands, use Home-screen widgets, check and reply to compatible notifications, control media playback, and access useful information from one fluid panel.
@@ -90,11 +90,11 @@ Weather data by [Open-Meteo.com](https://open-meteo.com/).
 
 ## Current status
 
-The current release is **SideSearch 0.5.0**, a work-in-progress preview. Feature availability can vary by Android version, device manufacturer, installed applications, and the capabilities exposed by notifications, media sessions, widgets, and manufacturer customizations.
+The current release is **SideSearch 0.5.1**, a work-in-progress preview. Feature availability can vary by Android version, device manufacturer, installed applications, and the capabilities exposed by notifications, media sessions, widgets, and manufacturer customizations.
 
-This update focuses on launcher reliability, native Samsung integration, and more intentional app access. It adds favorite apps with contextual reordering, expanded natural-language calendar parsing that respects the default calendar, stricter Focus boundaries with persistent randomized minigames, localized reading alternatives, and a 24-hour delay for later boundary changes. Material You colors now follow Samsung and ColorBlendr monochrome palettes, while icon rendering supports tonal colors and Samsung-style shaping. Notification and media handling now removes technical System UI duplicates, keeps media apps searchable, follows track and play/pause changes in real time even with the widget panel open, and improves reply reconciliation. Weather loading, keyboard focus, navigation-bar continuity, launcher task reuse, hosted Samsung Calendar widgets, and quick-panel interactions have also been hardened.
+This patch refines the tall-screen launcher around one-handed use. Search, media, seek controls, favorites, and recents stay close to the bottom edge; results stack upward; and the widget panel now opens physically from a bottom handle that follows the drag, stops below the quick toggles, and closes by pulling it down. The app-list fade begins behind the handle to preserve usable space, while player, keyboard, navigation-bar, recent-app, and shortcut transitions are coordinated to avoid layout jumps. It also strengthens Focus challenge persistence and difficulty, improves the post-keyboard dock reveal, removes widget-page peeking, and preserves the live media and Samsung widget fixes introduced in 0.5.0.
 
-The release includes `SideSearch-0.5.0-SHA256SUMS.txt` so the signed APK can be verified after download.
+The release includes `SideSearch-0.5.1-SHA256SUMS.txt` so the signed APK can be verified after download.
 
 ## Privacy and legal
 
