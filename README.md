@@ -3,7 +3,7 @@
 **A fast Android launcher and search panel for apps, commands, notifications, widgets, weather, and media.**
 
 [![Android 8.0+](https://img.shields.io/badge/Android-8.0%2B-3DDC84?logo=android&logoColor=white)](https://www.android.com/)
-[![Version 0.5.1](https://img.shields.io/badge/version-0.5.1-555555)](#current-status)
+[![Version 0.5.2](https://img.shields.io/badge/version-0.5.2-555555)](#current-status)
 [![Proprietary](https://img.shields.io/badge/license-proprietary-yellow)](EULA.md)
 
 SideSearch is a native Android app that lets you search and launch apps, run quick commands, use Home-screen widgets, check and reply to compatible notifications, control media playback, and access useful information from one fluid panel.
@@ -29,7 +29,7 @@ No payment is required to download or use the app. The release includes the sign
 ## Features
 
 - Fast app search with exact, prefix, acronym, fuzzy, typo-tolerant, and usage-aware matching.
-- Recent apps, contextual Android app shortcuts, native uninstall, and split-screen actions.
+- Newly installed apps prioritized with a persistent `NEW` badge until first opened, plus recent apps, contextual Android app shortcuts, native uninstall, and split-screen actions.
 - Configurable favorite apps before recents, with direct contextual reordering.
 - Optional Home launcher mode with the same search, quick controls, media, notifications, and widget panel, plus stable single-instance task reuse and launcher-specific keyboard behavior.
 - Animated full-height search mode that gives results more room while typing and returns to the dashboard when the keyboard closes.
@@ -90,11 +90,11 @@ Weather data by [Open-Meteo.com](https://open-meteo.com/).
 
 ## Current status
 
-The current release is **SideSearch 0.5.1**, a work-in-progress preview. Feature availability can vary by Android version, device manufacturer, installed applications, and the capabilities exposed by notifications, media sessions, widgets, and manufacturer customizations.
+The current release is **SideSearch 0.5.2**, a work-in-progress preview. Feature availability can vary by Android version, device manufacturer, installed applications, and the capabilities exposed by notifications, media sessions, widgets, and manufacturer customizations.
 
-This patch refines the tall-screen launcher around one-handed use. Search, media, seek controls, favorites, and recents stay close to the bottom edge; results stack upward; and the widget panel now opens physically from a bottom handle that follows the drag, stops below the quick toggles, and closes by pulling it down. The app-list fade begins behind the handle to preserve usable space, while player, keyboard, navigation-bar, recent-app, and shortcut transitions are coordinated to avoid layout jumps. It also strengthens Focus challenge persistence and difficulty, improves the post-keyboard dock reveal, removes widget-page peeking, and preserves the live media and Samsung widget fixes introduced in 0.5.0.
+This patch improves Samsung launcher and widget-panel consistency. Newly installed apps now appear at the top of the app list with a persistent `NEW` badge until first opened, without treating updates as fresh installs. The bottom navigation bar follows whichever surface touches it—recent apps or search—while rounded panel boundaries, widget clipping, quick-control dismissal, and stale shortcut recovery have been hardened. It also preserves the one-handed bottom layout, physical widget-handle behavior, coordinated keyboard/player transitions, and live media handling introduced in 0.5.1.
 
-The release includes `SideSearch-0.5.1-SHA256SUMS.txt` so the signed APK can be verified after download.
+The release includes `SideSearch-0.5.2-SHA256SUMS.txt` so the signed APK can be verified after download.
 
 ## Privacy and legal
 
