@@ -3,7 +3,7 @@
 **A fast Android launcher and search panel for apps, commands, notifications, widgets, weather, and media.**
 
 [![Android 8.0+](https://img.shields.io/badge/Android-8.0%2B-3DDC84?logo=android&logoColor=white)](https://www.android.com/)
-[![Version 0.4.0](https://img.shields.io/badge/version-0.4.0-555555)](#current-status)
+[![Version 0.5.0](https://img.shields.io/badge/version-0.5.0-555555)](#current-status)
 [![Proprietary](https://img.shields.io/badge/license-proprietary-yellow)](EULA.md)
 
 SideSearch is a native Android app that lets you search and launch apps, run quick commands, use Home-screen widgets, check and reply to compatible notifications, control media playback, and access useful information from one fluid panel.
@@ -30,7 +30,8 @@ No payment is required to download or use the app. The release includes the sign
 
 - Fast app search with exact, prefix, acronym, fuzzy, typo-tolerant, and usage-aware matching.
 - Recent apps, contextual Android app shortcuts, native uninstall, and split-screen actions.
-- Optional Home launcher mode with the same search, quick controls, media, notifications, and widget panel.
+- Configurable favorite apps before recents, with direct contextual reordering.
+- Optional Home launcher mode with the same search, quick controls, media, notifications, and widget panel, plus stable single-instance task reuse and launcher-specific keyboard behavior.
 - Animated full-height search mode that gives results more room while typing and returns to the dashboard when the keyboard closes.
 - Search-bar shortcuts for Google Lens and Google song recognition, plus a compact modern settings menu.
 - Recently used commands suggested as soon as a matching command prefix is entered.
@@ -42,18 +43,18 @@ No payment is required to download or use the app. The release includes the sign
 - Multi-session media pager with active playback selected first, page dots, snap feedback, and duplicate notification filtering.
 - Full-width media timeline with live playback progress, drag-to-seek, haptic feedback, a scrub tooltip, and animated start/end time labels.
 - Adaptive recent-app widget and a compact monochrome search-bar widget with Lens and song-recognition shortcuts.
-- A paged widget panel that loads widgets only when needed and restores the page that was previously in use.
+- A paged widget panel that loads widgets only when needed, restores the previous page, supports Samsung Calendar widgets, and keeps media state live while open.
 - Interactive notifications grouped under their source apps, with clearer sender, conversation, message, time, and app hierarchy.
 - Direct reply inside compatible messaging notifications, including local sent-message confirmation; reply text is not saved by SideSearch.
 - Rich media cards with artwork, available previous, play/pause, next, like, close controls, and seek support when exposed by Android.
-- Focus boundaries that can hide selected apps from SideSearch, enforce schedules, daily/session/opening limits and cooldowns, pause their notifications, and require an intentional unlock step.
+- Binding Focus boundaries with schedules, daily/session/opening limits, cooldowns, app-specific notification handling, delayed changes, and randomized minigames for temporary access.
 - Weather cards with current conditions, hourly data, and a five-day forecast.
 - Contact commands for calls, SMS, email, WhatsApp, Telegram, and Signal.
-- Natural-language calendar event drafts in English and Italian.
+- Natural-language calendar event drafts in English and Italian that open in the system-default calendar.
 - Quick commands for Google, Maps, YouTube, ChatGPT, Gemini, and messaging apps.
 - User-defined commands for opening URL templates, launching apps, or sending text to target apps.
 - Automatic recognition of email addresses, URLs, phone numbers, and calculations.
-- Light, dark, and system themes with customizable icon shapes and monochrome mode.
+- Material You light, dark, and system themes, including Samsung/ColorBlendr monochrome palettes, tonal icons, and native Samsung icon shaping.
 - Adaptive layouts for phones, landscape displays, tablets, and foldables.
 - High-refresh-rate support where available, lazy app-icon loading, bounded caches, and reduced media-progress redraws.
 - Softer panel, widget, pager, app-entry, and dismissal animations with consistent physical haptic feedback.
@@ -89,13 +90,11 @@ Weather data by [Open-Meteo.com](https://open-meteo.com/).
 
 ## Current status
 
-The current release is **SideSearch 0.4.0**, a work-in-progress preview. Feature availability can vary by Android version, device manufacturer, installed applications, and the capabilities exposed by notifications and media sessions.
+The current release is **SideSearch 0.5.0**, a work-in-progress preview. Feature availability can vary by Android version, device manufacturer, installed applications, and the capabilities exposed by notifications, media sessions, widgets, and manufacturer customizations.
 
-This is the largest SideSearch update so far. Version 0.4.0 adds a complete launcher mode, the compact Lens/song-search widget, the lazy paged widget panel, richer messaging notifications with direct reply, and configurable Focus boundaries. Search now expands smoothly while typing, restores the correct widget and notification pages, exposes recent command suggestions, and handles keyboard/back navigation more reliably across launcher, assistant, widget, and overlay entry points.
+This update focuses on launcher reliability, native Samsung integration, and more intentional app access. It adds favorite apps with contextual reordering, expanded natural-language calendar parsing that respects the default calendar, stricter Focus boundaries with persistent randomized minigames, localized reading alternatives, and a 24-hour delay for later boundary changes. Material You colors now follow Samsung and ColorBlendr monochrome palettes, while icon rendering supports tonal colors and Samsung-style shaping. Notification and media handling now removes technical System UI duplicates, keeps media apps searchable, follows track and play/pause changes in real time even with the widget panel open, and improves reply reconciliation. Weather loading, keyboard focus, navigation-bar continuity, launcher task reuse, hosted Samsung Calendar widgets, and quick-panel interactions have also been hardened.
 
-The update also refines quick-toggle state synchronization, adaptive system bars, media layout, contextual menus, haptics, and animations throughout the app. App icons are loaded lazily with smaller pressure-aware caches, media progress redraws are throttled, and high-refresh-rate displays are used where supported.
-
-The release includes `SideSearch-0.4.0-SHA256SUMS.txt` so the signed APK can be verified after download.
+The release includes `SideSearch-0.5.0-SHA256SUMS.txt` so the signed APK can be verified after download.
 
 ## Privacy and legal
 
