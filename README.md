@@ -3,7 +3,7 @@
 **A fast Android launcher and search panel for apps, commands, notifications, widgets, weather, and media.**
 
 [![Android 8.0+](https://img.shields.io/badge/Android-8.0%2B-3DDC84?logo=android&logoColor=white)](https://www.android.com/)
-[![Version 0.5.2](https://img.shields.io/badge/version-0.5.2-555555)](#current-status)
+[![Version 0.5.3](https://img.shields.io/badge/version-0.5.3-555555)](#current-status)
 [![Proprietary](https://img.shields.io/badge/license-proprietary-yellow)](EULA.md)
 
 SideSearch is a native Android app that lets you search and launch apps, run quick commands, use Home-screen widgets, check and reply to compatible notifications, control media playback, and access useful information from one fluid panel.
@@ -45,9 +45,11 @@ No payment is required to download or use the app. The release includes the sign
 - Adaptive recent-app widget and a compact monochrome search-bar widget with Lens and song-recognition shortcuts.
 - A paged widget panel that loads widgets only when needed, restores the previous page, supports Samsung Calendar widgets, and keeps media state live while open.
 - Interactive notifications grouped under their source apps, with clearer sender, conversation, message, time, and app hierarchy.
+- Dedicated cards and actions for incoming calls, navigation, and ongoing activities, with a unified contextual action menu.
 - Direct reply inside compatible messaging notifications, including local sent-message confirmation; reply text is not saved by SideSearch.
 - Rich media cards with artwork, available previous, play/pause, next, like, close controls, and seek support when exposed by Android.
 - Binding Focus boundaries with schedules, daily/session/opening limits, cooldowns, app-specific notification handling, delayed changes, and randomized minigames for temporary access.
+- Progressive exceptional-access waits, deliberate boundary pauses, and configurable reading alternatives by language and topic.
 - Weather cards with current conditions, hourly data, and a five-day forecast.
 - Contact commands for calls, SMS, email, WhatsApp, Telegram, and Signal.
 - Natural-language calendar event drafts in English and Italian that open in the system-default calendar.
@@ -56,6 +58,7 @@ No payment is required to download or use the app. The release includes the sign
 - Automatic recognition of email addresses, URLs, phone numbers, and calculations.
 - Material You light, dark, and system themes, including Samsung/ColorBlendr monochrome palettes, tonal icons, and native Samsung icon shaping.
 - Adaptive layouts for phones, landscape displays, tablets, and foldables.
+- Animated letter feedback while scrolling the app list, including a notification marker for the notification section.
 - High-refresh-rate support where available, lazy app-icon loading, bounded caches, and reduced media-progress redraws.
 - Softer panel, widget, pager, app-entry, and dismissal animations with consistent physical haptic feedback.
 
@@ -90,11 +93,11 @@ Weather data by [Open-Meteo.com](https://open-meteo.com/).
 
 ## Current status
 
-The current release is **SideSearch 0.5.2**, a work-in-progress preview. Feature availability can vary by Android version, device manufacturer, installed applications, and the capabilities exposed by notifications, media sessions, widgets, and manufacturer customizations.
+The current release is **SideSearch 0.5.3**, a work-in-progress preview. Feature availability can vary by Android version, device manufacturer, installed applications, and the capabilities exposed by notifications, media sessions, widgets, and manufacturer customizations.
 
-This patch improves Samsung launcher and widget-panel consistency. Newly installed apps now appear at the top of the app list with a persistent `NEW` badge until first opened, without treating updates as fresh installs. The bottom navigation bar follows whichever surface touches it—recent apps or search—while rounded panel boundaries, widget clipping, quick-control dismissal, and stale shortcut recovery have been hardened. It also preserves the one-handed bottom layout, physical widget-handle behavior, coordinated keyboard/player transitions, and live media handling introduced in 0.5.1.
+This patch refreshes onboarding and settings around a single primary opening method, expands notification presentation for calls, navigation, and ongoing activities, and adds richer contextual actions with consistent icons. Boundaries now provide progressive exceptional-access waits, deliberate pauses, and configurable reading alternatives. Launcher stability is improved by preserving player and bottom-strip state across Home returns, while app-list scrolling gains compact animated letter feedback that reliably disappears at rest. Closing a media card now explicitly stops playback without risking an accidental play toggle.
 
-The release includes `SideSearch-0.5.2-SHA256SUMS.txt` so the signed APK can be verified after download.
+The release includes `SideSearch-0.5.3-SHA256SUMS.txt` so the signed APK can be verified after download.
 
 ## Privacy and legal
 
