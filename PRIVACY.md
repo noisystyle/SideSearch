@@ -1,6 +1,6 @@
 # SideSearch Privacy Policy
 
-**Effective date:** July 15, 2026
+**Effective date:** July 22, 2026
 
 This Privacy Policy explains how SideSearch handles information when you install and use the Android application.
 
@@ -28,6 +28,8 @@ SideSearch stores limited preferences locally on your Android device, including:
 - search preferences;
 - a short list of recently launched app package names;
 - a short local history of recently used commands for command suggestions; and
+- local app-usage aggregates, suggestion exclusions, and a short AI reranking cache when contextual suggestions are used;
+- a country-specific cache of Google Trending Searches for up to 24 hours; and
 - Focus rules, limits, temporary unlocks, and local usage counters for apps you configure.
 
 This information remains on the device and can be removed by clearing the app's data or uninstalling SideSearch.
@@ -48,9 +50,15 @@ If you configure a Focus rule to pause or discard an app's notifications, SideSe
 
 ### Focus boundaries
 
-Focus boundaries are optional. Usage access lets SideSearch read local Android app-usage events so it can calculate limits for apps you configure. The optional Accessibility service enforces those rules when a blocked app is opened outside SideSearch. The service listens only for window and app changes and is configured not to retrieve window content.
+Focus boundaries are optional. Usage access lets SideSearch read local Android app-usage events so it can calculate limits for apps you configure and, when enabled, improve contextual app suggestions based on time and recent use. The optional Accessibility service enforces those rules when a blocked app is opened outside SideSearch. The service listens only for window and app changes and is configured not to retrieve window content.
 
 Focus processing and stored counters remain on your device. SideSearch does not send app-usage history, configured rules, or accessibility events to the developer.
+
+### On-device AI and clipboard
+
+On compatible devices, SideSearch can optionally use Gemini Nano through Android AICore for semantic app search, contextual reranking, editable reply drafts, and complex reminder interpretation. Prompts and results are processed on the device, are not persisted by SideSearch, and are not sent to the developer. Android or Google may need a network connection to check availability or download and manage the shared model; that system component is governed by the device provider's terms and privacy policy.
+
+Smart clipboard actions classify copied phone numbers, addresses, tracking codes, and dates locally. SideSearch does not retain copied content after producing the available action. External apps or services receive it only if you select an action such as Call, Maps, shipment search, or Calendar.
 
 ### System controls and edge handles
 
@@ -67,6 +75,10 @@ You can revoke these permissions at any time through Android settings.
 ### Weather
 
 When you request weather information, SideSearch sends the location text you entered to the Open-Meteo geocoding and forecast APIs. The network request also exposes standard connection information, such as your IP address, to the service provider. Open-Meteo handles that information under its [Terms and Privacy Policy](https://open-meteo.com/en/terms).
+
+### Google Trending Searches
+
+When SideSearch refreshes Google Trending Searches, it requests Google's public country-specific trends feed using the two-letter country code derived from the device locale. It does not send your search text. The request exposes standard connection information, such as your IP address, to Google, whose own privacy policy and terms apply. Results are cached locally for up to 24 hours.
 
 ### External apps and services
 
